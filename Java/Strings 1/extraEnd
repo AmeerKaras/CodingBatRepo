@@ -1,0 +1,5 @@
+public String extraEnd(String str) {
+  String ss = str.substring(Math.max(str.length() - 2, 0));
+  String result = (ss+ss+ss);
+  return result;
+}
